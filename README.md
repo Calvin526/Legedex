@@ -1,6 +1,6 @@
 # Legedex
 
-Legedex is an iOS application developed in Swift that provides a comprehensive Pokedex exclusively for legendary Pokemon. With Legedex, you can explore information about legendary Pokemon, view their stats, and learn more about their characteristics.
+Legedex is an iOS application developed in Swift that provides a comprehensive Pokedex exclusively for legendary Pokemon. With the Legedex, you can explore information about legendary Pokemon, view their stats, and learn more about their types and see their abilities.
 
 ## Features
 
@@ -8,7 +8,7 @@ Legedex is an iOS application developed in Swift that provides a comprehensive P
 
 - **Detailed Information:** Get detailed information about each legendary Pokemon, including their base stats, type, abilities, and more.
 
-- **Search and Filter:** Easily search for specific legendary Pokemon or use filters to narrow down your selection based on type, generation, or other criteria.
+- **Search and Filter:** Easily search for specific legendary Pokemon fror use filters to narrow down your selection based on generation.
 
 - **Intuitive UI:** The user interface is designed for simplicity and ease of use, ensuring a smooth and enjoyable experience for Pokemon enthusiasts.
 
