@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		434204C029DC655E00730F96 /* LegedexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434204BF29DC655E00730F96 /* LegedexApp.swift */; };
+		434204C429DC655F00730F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434204C329DC655F00730F96 /* Assets.xcassets */; };
+		434204C729DC655F00730F96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434204C629DC655F00730F96 /* Preview Assets.xcassets */; };
+		434204D129DC656000730F96 /* LegedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434204D029DC656000730F96 /* LegedexTests.swift */; };
+		434204DB29DC656000730F96 /* LegedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434204DA29DC656000730F96 /* LegedexUITests.swift */; };
+		434204DD29DC656000730F96 /* LegedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434204DC29DC656000730F96 /* LegedexUITestsLaunchTests.swift */; };
+		434204EC29DC7C2E00730F96 /* GenChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434204EB29DC7C2E00730F96 /* GenChoiceView.swift */; };
+		4380F1F629E7C97D000AED90 /* Gen1ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380F1F529E7C97D000AED90 /* Gen1ListView.swift */; };
+		439C39142A0E3E5B000110E0 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C39132A0E3E5B000110E0 /* DescriptionView.swift */; };
+		439C39162A0E9C60000110E0 /* TabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439C39152A0E9C60000110E0 /* TabViewScreen.swift */; };
+		43ACB37029F052FC00D60E83 /* StartSplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB36F29F052FC00D60E83 /* StartSplashScreenView.swift */; };
+		43ACB37229F06FDD00D60E83 /* Gen2ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37129F06FDD00D60E83 /* Gen2ListView.swift */; };
+		43ACB37429F0BDAA00D60E83 /* Gen3ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37329F0BDAA00D60E83 /* Gen3ListView.swift */; };
+		43ACB37629F0BF0700D60E83 /* Gen4ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37529F0BF0700D60E83 /* Gen4ListView.swift */; };
+		43ACB37829F0C01900D60E83 /* Gen5ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37729F0C01900D60E83 /* Gen5ListView.swift */; };
+		43ACB37A29F0C33F00D60E83 /* Gen6ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37929F0C33F00D60E83 /* Gen6ListView.swift */; };
+		43ACB37C29F0C5E200D60E83 /* Gen7ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37B29F0C5E200D60E83 /* Gen7ListView.swift */; };
+		43ACB37E29F0C5EF00D60E83 /* Gen8ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37D29F0C5EF00D60E83 /* Gen8ListView.swift */; };
+		43ACB38029F0C5FF00D60E83 /* Gen9ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB37F29F0C5FF00D60E83 /* Gen9ListView.swift */; };
+		43ACB38229F0C60900D60E83 /* AllListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB38129F0C60900D60E83 /* AllListView.swift */; };
+		43ACB38429F0EC9000D60E83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB38329F0EC9000D60E83 /* ContentView.swift */; };
+		43ACB38629F0EF7E00D60E83 /* Articuno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ACB38529F0EF7E00D60E83 /* Articuno.swift */; };
+		43D2A4962A0D9C1D00D18356 /* Mew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2A4952A0D9C1D00D18356 /* Mew.swift */; };
+		43D2A4982A0D9C3D00D18356 /* Mewtwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2A4972A0D9C3D00D18356 /* Mewtwo.swift */; };
+		43D2A49A2A0DF6A000D18356 /* PokemonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2A4992A0DF6A000D18356 /* PokemonUIView.swift */; };
+		43D2A49C2A0DFAB700D18356 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2A49B2A0DFAB700D18356 /* Test.swift */; };
+		43D2A49E2A0E06D200D18356 /* GenChoiceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C8FF2A0D678C00CEB6B8 /* GenChoiceView2.swift */; };
+		43E3C8E82A0D37FF00CEB6B8 /* Gen1FixedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C8E72A0D37FF00CEB6B8 /* Gen1FixedList.swift */; };
+		43E3C8EF2A0D440800CEB6B8 /* Zapdos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C8EE2A0D440800CEB6B8 /* Zapdos.swift */; };
+		43E3C8F62A0D4BD600CEB6B8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C8F52A0D4BD600CEB6B8 /* UIColor.swift */; };
+		43E3C8F82A0D536400CEB6B8 /* Moltres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C8F72A0D536400CEB6B8 /* Moltres.swift */; };
+		43E3C90A2A0D8F0300CEB6B8 /* OmarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E3C9072A0D8EBC00CEB6B8 /* OmarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434204CD29DC656000730F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434204B429DC655E00730F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434204BB29DC655E00730F96;
+			remoteInfo = Legedex;
+		};
+		434204D729DC656000730F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 434204B429DC655E00730F96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 434204BB29DC655E00730F96;
+			remoteInfo = Legedex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		434204BC29DC655E00730F96 /* Legedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Legedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		434204BF29DC655E00730F96 /* LegedexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegedexApp.swift; sourceTree = "<group>"; };
+		434204C329DC655F00730F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		434204C629DC655F00730F96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		434204CC29DC656000730F96 /* LegedexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegedexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434204D029DC656000730F96 /* LegedexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegedexTests.swift; sourceTree = "<group>"; };
+		434204D629DC656000730F96 /* LegedexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegedexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		434204DA29DC656000730F96 /* LegedexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegedexUITests.swift; sourceTree = "<group>"; };
+		434204DC29DC656000730F96 /* LegedexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegedexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		434204EB29DC7C2E00730F96 /* GenChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenChoiceView.swift; sourceTree = "<group>"; };
+		4380F1F529E7C97D000AED90 /* Gen1ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen1ListView.swift; sourceTree = "<group>"; };
+		4380F1FB29E8FF1E000AED90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		439C39132A0E3E5B000110E0 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		439C39152A0E9C60000110E0 /* TabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewScreen.swift; sourceTree = "<group>"; };
+		43ACB36F29F052FC00D60E83 /* StartSplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSplashScreenView.swift; sourceTree = "<group>"; };
+		43ACB37129F06FDD00D60E83 /* Gen2ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen2ListView.swift; sourceTree = "<group>"; };
+		43ACB37329F0BDAA00D60E83 /* Gen3ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen3ListView.swift; sourceTree = "<group>"; };
+		43ACB37529F0BF0700D60E83 /* Gen4ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen4ListView.swift; sourceTree = "<group>"; };
+		43ACB37729F0C01900D60E83 /* Gen5ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen5ListView.swift; sourceTree = "<group>"; };
+		43ACB37929F0C33F00D60E83 /* Gen6ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen6ListView.swift; sourceTree = "<group>"; };
+		43ACB37B29F0C5E200D60E83 /* Gen7ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen7ListView.swift; sourceTree = "<group>"; };
+		43ACB37D29F0C5EF00D60E83 /* Gen8ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen8ListView.swift; sourceTree = "<group>"; };
+		43ACB37F29F0C5FF00D60E83 /* Gen9ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen9ListView.swift; sourceTree = "<group>"; };
+		43ACB38129F0C60900D60E83 /* AllListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListView.swift; sourceTree = "<group>"; };
+		43ACB38329F0EC9000D60E83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43ACB38529F0EF7E00D60E83 /* Articuno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articuno.swift; sourceTree = "<group>"; };
+		43D2A4952A0D9C1D00D18356 /* Mew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mew.swift; sourceTree = "<group>"; };
+		43D2A4972A0D9C3D00D18356 /* Mewtwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mewtwo.swift; sourceTree = "<group>"; };
+		43D2A4992A0DF6A000D18356 /* PokemonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonUIView.swift; sourceTree = "<group>"; };
+		43D2A49B2A0DFAB700D18356 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		43E3C8E72A0D37FF00CEB6B8 /* Gen1FixedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gen1FixedList.swift; sourceTree = "<group>"; };
+		43E3C8EE2A0D440800CEB6B8 /* Zapdos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zapdos.swift; sourceTree = "<group>"; };
+		43E3C8F52A0D4BD600CEB6B8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		43E3C8F72A0D536400CEB6B8 /* Moltres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moltres.swift; sourceTree = "<group>"; };
+		43E3C8FF2A0D678C00CEB6B8 /* GenChoiceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenChoiceView2.swift; sourceTree = "<group>"; };
+		43E3C9072A0D8EBC00CEB6B8 /* OmarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		434204B929DC655E00730F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204C929DC656000730F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204D329DC656000730F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		434204B329DC655E00730F96 = {
+			isa = PBXGroup;
+			children = (
+				434204BE29DC655E00730F96 /* Legedex */,
+				434204CF29DC656000730F96 /* LegedexTests */,
+				434204D929DC656000730F96 /* LegedexUITests */,
+				434204BD29DC655E00730F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		434204BD29DC655E00730F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				434204BC29DC655E00730F96 /* Legedex.app */,
+				434204CC29DC656000730F96 /* LegedexTests.xctest */,
+				434204D629DC656000730F96 /* LegedexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		434204BE29DC655E00730F96 /* Legedex */ = {
+			isa = PBXGroup;
+			children = (
+				4380F1FB29E8FF1E000AED90 /* Info.plist */,
+				434204BF29DC655E00730F96 /* LegedexApp.swift */,
+				43ACB36F29F052FC00D60E83 /* StartSplashScreenView.swift */,
+				439C39152A0E9C60000110E0 /* TabViewScreen.swift */,
+				434204EB29DC7C2E00730F96 /* GenChoiceView.swift */,
+				43D2A4992A0DF6A000D18356 /* PokemonUIView.swift */,
+				439C39132A0E3E5B000110E0 /* DescriptionView.swift */,
+				4380F1F529E7C97D000AED90 /* Gen1ListView.swift */,
+				43ACB37129F06FDD00D60E83 /* Gen2ListView.swift */,
+				43ACB37329F0BDAA00D60E83 /* Gen3ListView.swift */,
+				43ACB37529F0BF0700D60E83 /* Gen4ListView.swift */,
+				43ACB37729F0C01900D60E83 /* Gen5ListView.swift */,
+				43ACB37929F0C33F00D60E83 /* Gen6ListView.swift */,
+				43ACB37B29F0C5E200D60E83 /* Gen7ListView.swift */,
+				43ACB37D29F0C5EF00D60E83 /* Gen8ListView.swift */,
+				43ACB37F29F0C5FF00D60E83 /* Gen9ListView.swift */,
+				435AB2412A0E21810008262D /* Unused */,
+				43E3C8F12A0D49A000CEB6B8 /* Extensions */,
+				43E3C8ED2A0D3D7200CEB6B8 /* GenListViews */,
+				434204C329DC655F00730F96 /* Assets.xcassets */,
+				434204C529DC655F00730F96 /* Preview Content */,
+			);
+			path = Legedex;
+			sourceTree = "<group>";
+		};
+		434204C529DC655F00730F96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				434204C629DC655F00730F96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		434204CF29DC656000730F96 /* LegedexTests */ = {
+			isa = PBXGroup;
+			children = (
+				434204D029DC656000730F96 /* LegedexTests.swift */,
+			);
+			path = LegedexTests;
+			sourceTree = "<group>";
+		};
+		434204D929DC656000730F96 /* LegedexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				434204DA29DC656000730F96 /* LegedexUITests.swift */,
+				434204DC29DC656000730F96 /* LegedexUITestsLaunchTests.swift */,
+			);
+			path = LegedexUITests;
+			sourceTree = "<group>";
+		};
+		435AB2412A0E21810008262D /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				43E3C8F22A0D49B600CEB6B8 /* Pokemon UI Files */,
+				43E3C8FF2A0D678C00CEB6B8 /* GenChoiceView2.swift */,
+				43ACB38129F0C60900D60E83 /* AllListView.swift */,
+				43ACB38329F0EC9000D60E83 /* ContentView.swift */,
+				43D2A49B2A0DFAB700D18356 /* Test.swift */,
+				43E3C9072A0D8EBC00CEB6B8 /* OmarView.swift */,
+				43E3C8E72A0D37FF00CEB6B8 /* Gen1FixedList.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		43E3C8ED2A0D3D7200CEB6B8 /* GenListViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GenListViews;
+			sourceTree = "<group>";
+		};
+		43E3C8F12A0D49A000CEB6B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				43E3C8F52A0D4BD600CEB6B8 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43E3C8F22A0D49B600CEB6B8 /* Pokemon UI Files */ = {
+			isa = PBXGroup;
+			children = (
+				43ACB38529F0EF7E00D60E83 /* Articuno.swift */,
+				43E3C8EE2A0D440800CEB6B8 /* Zapdos.swift */,
+				43E3C8F72A0D536400CEB6B8 /* Moltres.swift */,
+				43D2A4972A0D9C3D00D18356 /* Mewtwo.swift */,
+				43D2A4952A0D9C1D00D18356 /* Mew.swift */,
+			);
+			path = "Pokemon UI Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		434204BB29DC655E00730F96 /* Legedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434204E029DC656000730F96 /* Build configuration list for PBXNativeTarget "Legedex" */;
+			buildPhases = (
+				434204B829DC655E00730F96 /* Sources */,
+				434204B929DC655E00730F96 /* Frameworks */,
+				434204BA29DC655E00730F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Legedex;
+			productName = Legedex;
+			productReference = 434204BC29DC655E00730F96 /* Legedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		434204CB29DC656000730F96 /* LegedexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434204E329DC656000730F96 /* Build configuration list for PBXNativeTarget "LegedexTests" */;
+			buildPhases = (
+				434204C829DC656000730F96 /* Sources */,
+				434204C929DC656000730F96 /* Frameworks */,
+				434204CA29DC656000730F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434204CE29DC656000730F96 /* PBXTargetDependency */,
+			);
+			name = LegedexTests;
+			productName = LegedexTests;
+			productReference = 434204CC29DC656000730F96 /* LegedexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		434204D529DC656000730F96 /* LegedexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 434204E629DC656000730F96 /* Build configuration list for PBXNativeTarget "LegedexUITests" */;
+			buildPhases = (
+				434204D229DC656000730F96 /* Sources */,
+				434204D329DC656000730F96 /* Frameworks */,
+				434204D429DC656000730F96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				434204D829DC656000730F96 /* PBXTargetDependency */,
+			);
+			name = LegedexUITests;
+			productName = LegedexUITests;
+			productReference = 434204D629DC656000730F96 /* LegedexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		434204B429DC655E00730F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					434204BB29DC655E00730F96 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					434204CB29DC656000730F96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 434204BB29DC655E00730F96;
+					};
+					434204D529DC656000730F96 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 434204BB29DC655E00730F96;
+					};
+				};
+			};
+			buildConfigurationList = 434204B729DC655E00730F96 /* Build configuration list for PBXProject "Legedex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 434204B329DC655E00730F96;
+			productRefGroup = 434204BD29DC655E00730F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				434204BB29DC655E00730F96 /* Legedex */,
+				434204CB29DC656000730F96 /* LegedexTests */,
+				434204D529DC656000730F96 /* LegedexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		434204BA29DC655E00730F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434204C729DC655F00730F96 /* Preview Assets.xcassets in Resources */,
+				434204C429DC655F00730F96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204CA29DC656000730F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204D429DC656000730F96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		434204B829DC655E00730F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D2A49A2A0DF6A000D18356 /* PokemonUIView.swift in Sources */,
+				43ACB37029F052FC00D60E83 /* StartSplashScreenView.swift in Sources */,
+				43D2A4982A0D9C3D00D18356 /* Mewtwo.swift in Sources */,
+				43ACB37429F0BDAA00D60E83 /* Gen3ListView.swift in Sources */,
+				43ACB38429F0EC9000D60E83 /* ContentView.swift in Sources */,
+				439C39162A0E9C60000110E0 /* TabViewScreen.swift in Sources */,
+				434204EC29DC7C2E00730F96 /* GenChoiceView.swift in Sources */,
+				43ACB37829F0C01900D60E83 /* Gen5ListView.swift in Sources */,
+				434204C029DC655E00730F96 /* LegedexApp.swift in Sources */,
+				43D2A49E2A0E06D200D18356 /* GenChoiceView2.swift in Sources */,
+				43ACB37229F06FDD00D60E83 /* Gen2ListView.swift in Sources */,
+				43ACB37E29F0C5EF00D60E83 /* Gen8ListView.swift in Sources */,
+				43E3C8F62A0D4BD600CEB6B8 /* UIColor.swift in Sources */,
+				43ACB38629F0EF7E00D60E83 /* Articuno.swift in Sources */,
+				43D2A4962A0D9C1D00D18356 /* Mew.swift in Sources */,
+				43ACB38029F0C5FF00D60E83 /* Gen9ListView.swift in Sources */,
+				439C39142A0E3E5B000110E0 /* DescriptionView.swift in Sources */,
+				43E3C8E82A0D37FF00CEB6B8 /* Gen1FixedList.swift in Sources */,
+				43ACB38229F0C60900D60E83 /* AllListView.swift in Sources */,
+				43E3C8F82A0D536400CEB6B8 /* Moltres.swift in Sources */,
+				43ACB37629F0BF0700D60E83 /* Gen4ListView.swift in Sources */,
+				43E3C8EF2A0D440800CEB6B8 /* Zapdos.swift in Sources */,
+				43ACB37A29F0C33F00D60E83 /* Gen6ListView.swift in Sources */,
+				4380F1F629E7C97D000AED90 /* Gen1ListView.swift in Sources */,
+				43D2A49C2A0DFAB700D18356 /* Test.swift in Sources */,
+				43ACB37C29F0C5E200D60E83 /* Gen7ListView.swift in Sources */,
+				43E3C90A2A0D8F0300CEB6B8 /* OmarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204C829DC656000730F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434204D129DC656000730F96 /* LegedexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434204D229DC656000730F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				434204DB29DC656000730F96 /* LegedexUITests.swift in Sources */,
+				434204DD29DC656000730F96 /* LegedexUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		434204CE29DC656000730F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434204BB29DC655E00730F96 /* Legedex */;
+			targetProxy = 434204CD29DC656000730F96 /* PBXContainerItemProxy */;
+		};
+		434204D829DC656000730F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 434204BB29DC655E00730F96 /* Legedex */;
+			targetProxy = 434204D729DC656000730F96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		434204DE29DC656000730F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		434204DF29DC656000730F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		434204E129DC656000730F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legedex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Legedex/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.Legedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		434204E229DC656000730F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Legedex/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Legedex/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.Legedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		434204E429DC656000730F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.LegedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legedex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Legedex";
+			};
+			name = Debug;
+		};
+		434204E529DC656000730F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.LegedexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Legedex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Legedex";
+			};
+			name = Release;
+		};
+		434204E729DC656000730F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.LegedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Legedex;
+			};
+			name = Debug;
+		};
+		434204E829DC656000730F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Yah.LegedexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Legedex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		434204B729DC655E00730F96 /* Build configuration list for PBXProject "Legedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434204DE29DC656000730F96 /* Debug */,
+				434204DF29DC656000730F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434204E029DC656000730F96 /* Build configuration list for PBXNativeTarget "Legedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434204E129DC656000730F96 /* Debug */,
+				434204E229DC656000730F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434204E329DC656000730F96 /* Build configuration list for PBXNativeTarget "LegedexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434204E429DC656000730F96 /* Debug */,
+				434204E529DC656000730F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		434204E629DC656000730F96 /* Build configuration list for PBXNativeTarget "LegedexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434204E729DC656000730F96 /* Debug */,
+				434204E829DC656000730F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 434204B429DC655E00730F96 /* Project object */;
+}
